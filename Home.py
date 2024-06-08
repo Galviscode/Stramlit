@@ -1,26 +1,53 @@
-
 import streamlit as st
 import matplotlib.pyplot as plt
 
-# Set the page title and header
-st.title("Proyecto Integrador")
-st.header("Bienvenido a nuestro Proyecto Integrador BoomMusic")
+# Configuración de la página
+st.set_page_config(page_title="Proyecto Integrador BoomMusic", layout="wide")
 
-# Hero Section with image and project description
+# Título y encabezado
+st.title("Proyecto Integrador BoomMusic")
+st.header("Bienvenido a nuestro Proyecto Integrador")
+
+# Sección Hero con imagen y descripción del proyecto
 st.image("https://i.postimg.cc/q7VNRHRJ/logo-proyecto.png", width=600)
-st.write("Este proyecto integrador busca mostrar estadisticas de la industria musical, con una amplia base de datos .")
+st.markdown("""
+**BoomMusic** es un proyecto integrador que busca mostrar estadísticas de la industria musical, utilizando una amplia base de datos. 
+La plataforma proporciona herramientas interactivas para explorar y analizar datos musicales de manera dinámica.
+""")
 
-# Project Overview
-st.subheader("Descripcion de los proyectos")
-st.write("- Proyecto 1: ")
-st.write("- Proyecto 2, El Simulador CESDE Bello es una herramienta interactiva desarrollada con Streamlit para facilitar el análisis y visualización de datos académicos del CESDE Bello. Permite a los usuarios filtrar y explorar las calificaciones de los estudiantes a través de diversas dimensiones, incluyendo grupos, niveles y jornadas.")
-st.write("- Punto 3: Descripción detallada del punto 3 del proyecto.")
+# Resumen del proyecto
+st.subheader("Descripción de los Proyectos")
+st.markdown("""
+### Proyecto 1: Exploración de Datos Musicales
+Este proyecto integrador es una aplicación interactiva desarrollada con Streamlit y Plotly. Está diseñada para explorar y analizar datos musicales de una manera dinámica e intuitiva. 
+Los usuarios pueden seleccionar géneros, artistas y álbumes específicos para visualizar información detallada sobre sus contenidos y popularidades, proporcionando una herramienta poderosa para la visualización y el análisis de datos en el ámbito musical.
 
+### Proyecto 2: Simulador CESDE Bello
+El Simulador CESDE Bello es una herramienta interactiva desarrollada con Streamlit para facilitar el análisis y la visualización de datos académicos del CESDE Bello. 
+Permite a los usuarios filtrar y explorar las calificaciones de los estudiantes a través de diversas dimensiones, incluyendo grupos, niveles y jornadas.
 
+### Proyecto 3: Análisis de Datos de Llamadas de Emergencias
+Este proyecto es una aplicación interactiva desarrollada con Streamlit, destinada a visualizar y analizar datos de llamadas de emergencias (123) para marzo de 2024. 
+La aplicación permite a los usuarios explorar la información de manera dinámica, filtrando los datos por localidad, género y edad para obtener insights específicos sobre los incidentes registrados.
+""")
 
-# Footer with team members and project information
+# Sección de equipo y contacto
 st.subheader("Equipo y Contacto")
-st.write("**Miembros del equipo:**")
-st.write("- Julian david marin iglesias.")
-st.write("- Andres galvis atehortua.")
-st.write("- Johan rodriguez perez.")
+st.markdown("""
+**Miembros del equipo:**
+- Julian David Marín Iglesias
+- Andrés Galvis Atehortúa
+- Johan Rodríguez Pérez
+
+Para más información, contáctanos a través de [correo@example.com](mailto:correo@example.com).
+""")
+
+# Espacio en blanco para una mejor separación visual
+st.markdown("###")
+st.markdown("###")
+
+# Footer
+st.markdown("""
+---
+*Desarrollado por el equipo de BoomMusic - 2024*
+""")
