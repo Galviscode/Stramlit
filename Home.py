@@ -17,16 +17,10 @@ st.write("- Proyecto 2, El Simulador CESDE Bello es una herramienta interactiva 
 st.write("- Punto 3: Descripción detallada del punto 3 del proyecto.")
 
 
-# Call to Action
-st.subheader("¡Toma Acción!")
-st.write("**Visite nuestro sitio web:** [Enlace al sitio web del proyecto](https://example.com)")
-st.write("**Contáctenos:** [Enlace al correo electrónico de contacto](mailto:info@example.com)")
 
 # Footer with team members and project information
 st.subheader("Equipo y Contacto")
 st.write("**Miembros del equipo:**")
-st.write("- Nombre 1: Cargo en el equipo.")
-st.write("- Nombre 2: Cargo en el equipo.")
-st.write("- Nombre 3: Cargo en el equipo.")
-st.write("**Información de contacto:**")
-st.write("Correo electrónico: [Enlace al correo electrónico de contacto](mailto:info@example.com)")
+st.write("- Julian david marin iglesias.")
+st.write("- Andres galvis atehortua.")
+st.write("- Johan rodriguez perez.")
