@@ -2,6 +2,26 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# Configuración de la página
+st.set_page_config(page_title="Proyecto Integrador BoomMusic", layout="wide")
+
+# Aplicar estilo CSS para el fondo
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #282828;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Título y encabezado
+st.title("Proyecto Integrador BoomMusic")
+st.header("Exploración de Datos Musicales")
+
 # Cargar el archivo CSV
 df = pd.read_csv('static/datasets/musica.csv')
 
