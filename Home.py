@@ -4,31 +4,18 @@ import matplotlib.pyplot as plt
 
 # Set the page title and header
 st.title("Proyecto Integrador")
-st.header("Bienvenido a nuestro Proyecto Integrador")
+st.header("Bienvenido a nuestro Proyecto Integrador BoomMusic")
 
 # Hero Section with image and project description
-st.image("https://i1.sndcdn.com/artworks-nTgGESMaN9t5TBxQ-xO5rFg-t500x500.jpg", width=600)
-st.write("**Descripción del proyecto:** Breve descripción del proyecto, sus objetivos y su impacto.")
+st.image("https://i.postimg.cc/q7VNRHRJ/logo-proyecto.png", width=600)
+st.write("Este proyecto integrador busca mostrar estadisticas de la industria musical, con una amplia base de datos .")
 
 # Project Overview
-st.subheader("Resumen del Proyecto")
-st.write("- Punto 1: Descripción detallada del punto 1 del proyecto.")
-st.write("- Punto 2: Descripción detallada del punto 2 del proyecto.")
+st.subheader("Descripcion de los proyectos")
+st.write("- Proyecto 1: ")
+st.write("- Proyecto 2, El Simulador CESDE Bello es una herramienta interactiva desarrollada con Streamlit para facilitar el análisis y visualización de datos académicos del CESDE Bello. Permite a los usuarios filtrar y explorar las calificaciones de los estudiantes a través de diversas dimensiones, incluyendo grupos, niveles y jornadas.")
 st.write("- Punto 3: Descripción detallada del punto 3 del proyecto.")
 
-# Features and Benefits
-st.subheader("Características y Beneficios")
-st.write("**Característica 1:** Descripción de la característica 1 y sus beneficios.")
-st.write("**Característica 2:** Descripción de la característica 2 y sus beneficios.")
-st.write("**Característica 3:** Descripción de la característica 3 y sus beneficios.")
-
-# Interactive Chart or Visualization (Optional)
-# Replace with your specific data and visualization
-data = [10, 20, 30, 40, 50]
-labels = ["Categoría A", "Categoría B", "Categoría C", "Categoría D", "Categoría E"]
-fig, ax = plt.subplots()
-ax.pie(data, labels=labels, autopct="%1.1f%%")
-st.pyplot(fig)
 
 # Call to Action
 st.subheader("¡Toma Acción!")
